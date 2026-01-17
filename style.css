@@ -1,0 +1,56 @@
+main{
+    max-width: 650px;
+    margin: auto;
+    padding: 20px; 
+    line-height: 1.0;
+    background-color: #4B89BF ;
+    text-shadow: 1px 2px 2px #08112a78 ;
+    border-radius: 4%;
+    box-shadow: 10px 10px 30px rgba(0,0 ,0,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+}
+
+main:hover{
+    transform: translateY(-5px);
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.7);
+}
+body{
+    min-width: 100vh;
+    margin: auto;
+    background-image: linear-gradient(to right, #223754,#D30D31,  #10142D);
+}
+img {
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+h1, h2 {
+    color: #122459; 
+    text-align: center;
+}
+
+/* A caixa que segura o botão */
+.botao1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* O botão em si */
+.botao1 a {
+    background-color: #122459;
+    color: white;
+    padding: 1px 25px;
+    text-decoration: none;
+    border-radius: 30px; /* Deixa ele redondinho nas pontas */
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao1 a:hover {
+    transform: scale(1.1);
+    background-color: #122459;
+}
+
